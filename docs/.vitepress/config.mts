@@ -14,7 +14,7 @@ import { blogTheme } from './blog-theme'
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
   extends: blogTheme,
-  base: '/viteblog',
+  base: '/viteblog/',
   lang: 'zh-cn',
   title: '12222e',
   description: '基于 vitepress 实现',
